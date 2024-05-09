@@ -6,6 +6,7 @@ convert coco annotation to yolo annotation.
 
 ## coco_split.py
 This code is from mmlab which can split dataset to train/val/test sets.
+
 $ python coco_split.py --json NEU-DET/annotations/annotations_all.json --out-dir NEU-DET/annotations/ --ratios 0.85 0.15 --shuffle --seed 10
 
 ## fix_coco.py
